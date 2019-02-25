@@ -21,7 +21,7 @@ public class OpenshiftApplication {
         System.out.println("---------------CALL BY ----TREAD--------------" +Thread.currentThread().getId());
         System.out.println("---------------CALL BY ----HASH--------------" +this.hashCode() );
 
-        return "hello : " + this.hashCode() + ": " + System.getenv("HOSTNAME")  ;
+        return "hello : " + this.hashCode() + " v2 : " + System.getenv("HOSTNAME")  ;
     }
 
 //    @Bean
